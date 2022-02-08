@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script src="../jscript.js"></script>
+        <title> Registration Page</title>
+                        <script>
+            function mm() {
+            location.replace('../index.py');}
+            </script>
+    </head> 
+<body>
+    <h2>Registration Page</h2><br> 
+    <p1><button type = 'button' onclick = 'mm();'>Homepage</button></p1>
+    <div class = "registration">
+        <form name="formRegistration" action = "../process.py"  method="get" id="regform" style="display:block" onsubmit="return validate();">
+            <h1>Registration Form</h1>
+            <p>User name: <input type="text" name="uname" id = "uName" /></p>
+            <p>Password: <input type="password" name="pwd" id = "passw"/></p>
+            <p>Password again: <input type="password" name="pwd2" id = "passw2"/></p>
+            <p>Name: <input type="text" name="fullname" id = "fname"/></p>
+            <p>E-Mail: <input type="email" name="e-mail" id = "eMail"/></p>
+            <p>Phone #: <input type="number" name="number" id = "phoneNumber"/></p>
+            <p><input type="submit" value="Submit">
+            <input type="reset" value="Reset"></p>
+        </form>
+    </div>
+   
+
+</body>
+
+</html>

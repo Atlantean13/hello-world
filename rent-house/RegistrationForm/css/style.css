@@ -1,0 +1,112 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#041922ba;
+    background-image: url("registernow.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial';  
+}  
+.registration{  
+        width: 330px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 15 0 0 0px;  
+        padding: 12px;  
+        background: hsl(0, 0%, 83%);  
+        border-radius: 12px ;
+          
+}  
+h2{  
+    text-align: center;  
+    color: #fd0505;  
+    padding: 20px;  
+} 
+
+.p1{
+    text-align: left;
+    padding: 100px;
+    place-items: 50px;
+}
+
+h1{
+    text-align: center;
+    color:hsl(347, 87%, 31%);
+    padding: 20px;
+}
+
+#uName{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#passw{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+
+#passw2{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+
+#fname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+
+#eMail{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+
+#phoneNumber{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+
+
+
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
